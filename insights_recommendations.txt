@@ -1,0 +1,29 @@
+Customer Segmentation and Credit Risk Analysis Report
+----------------------------------------------------
+
+1. Customer Segmentation:
+We identified 4 distinct customer segments based on Balance and Credit Limit.
+Clusters were created using K-Means clustering, revealing varied customer profiles.
+
+2. Credit Risk Prediction:
+Confusion Matrix:
+[[680 631]
+ [651 629]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.52      0.51      1311
+           1       0.50      0.49      0.50      1280
+
+    accuracy                           0.51      2591
+   macro avg       0.51      0.51      0.51      2591
+weighted avg       0.51      0.51      0.51      2591
+
+
+3. Recommendations:
+Focus on retaining high-risk customers identified by the model. Use targeted strategies to minimize churn among these high-risk groups.
+Implement personalized offers and incentives tailored to different customer segments.
+Consider further segmentation based on additional features for more precise targeting and strategy development.
+Regularly update the models with new data to ensure accuracy and adapt to evolving customer behaviors.
+Investigate fraud risk patterns within clusters to tailor risk management strategies effectively.
